@@ -1,0 +1,12 @@
+mat-toolbar {
+  background-color: #e74c3c;
+  height: 65px;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  background-color: #ecf0f1;
+}
