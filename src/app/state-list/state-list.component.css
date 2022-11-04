@@ -11,13 +11,15 @@ img {
   margin-top: 1rem;
 }
 .card {
-  height: 35vh;
+  height: 40vh;
 }
 .state {
   margin-top: 1rem;
 }
 .capital {
   margin-top: 1 rem;
+  font-weight: 400;
+  color: #7f8c8d;
 }
 .state:hover + .hide {
   display: block;

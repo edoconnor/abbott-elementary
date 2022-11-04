@@ -3,6 +3,16 @@
     <div *ngFor="let state of states$ | async" class="col-12 col-sm-6 col-lg-4">
       <div class="card border-0 mx-auto mt-3 p-3">
         <img
+          (click)="state.visible = !state.visible"
+          class="img-fluid"
+          src="{{ state.plates }}"
+          alt="Responsive image"
+        />
+        <div>
+          <h3 class="state text-center">
+            {{ state.name | titlecase }}
+          </h3>
+          <!-- <img
           class="img-fluid"
           src="{{ state.plates }}"
           alt="Responsive image"
@@ -13,12 +23,11 @@
             class="state text-center"
           >
             {{ state.name | titlecase }}
-          </h3>
+          </h3> -->
 
           <h4 *ngIf="state.visible" class="capital text-center">
-            {{ state.capital | titlecase }}!
+            🏛️= {{ state.capital | titlecase }}
           </h4>
-          <div class="hide text-center">Capital?</div>
         </div>
       </div>
     </div>
