@@ -2,15 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { State } from '../state';
 import { StateService } from '../state.service';
-import { TitleCasePipe } from '@angular/common';
 
 @Component({
-  selector: 'app-state-list',
-  templateUrl: './state-list.component.html',
-  styleUrls: ['./state-list.component.css'],
-  providers: [TitleCasePipe],
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
+  styleUrls: ['./carousel.component.css'],
+  providers: [],
 })
-export class StateListComponent implements OnInit {
+export class CarouselComponent implements OnInit {
   states$: Observable<State[]> = new Observable();
 
   constructor(private statesService: StateService) {}

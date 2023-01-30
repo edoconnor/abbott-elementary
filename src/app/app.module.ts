@@ -5,16 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StateListComponent } from './state-list/state-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MaterialDesignModule } from './material-design/material-design.module';
+import { TitleCasePipe } from '@angular/common';
+import { CarouselComponent } from './carousel/carousel.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { AsyncPipe } from '@angular/common';
 
 @NgModule({
-  declarations: [AppComponent, StateListComponent],
+  declarations: [AppComponent, StateListComponent, CarouselComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    MaterialDesignModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -12,19 +12,6 @@
           <h3 class="state text-center">
             {{ state.name | titlecase }}
           </h3>
-          <!-- <img
-          class="img-fluid"
-          src="{{ state.plates }}"
-          alt="Responsive image"
-        />
-        <div>
-          <h3
-            (click)="state.visible = !state.visible"
-            class="state text-center"
-          >
-            {{ state.name | titlecase }}
-          </h3> -->
-
           <h4 *ngIf="state.visible" class="capital text-center">
             🏛️= {{ state.capital | titlecase }}
           </h4>
