@@ -1,3 +1,4 @@
+<mat-progress-bar *ngIf="isLoading" mode="indeterminate"></mat-progress-bar>
 <div class="container">
   <div class="row">
     <div *ngFor="let state of states$ | async" class="col-12 col-sm-6 col-lg-4">

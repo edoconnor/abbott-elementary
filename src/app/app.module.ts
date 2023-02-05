@@ -9,6 +9,8 @@ import { TitleCasePipe } from '@angular/common';
 import { CarouselComponent } from './carousel/carousel.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AsyncPipe } from '@angular/common';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+ 
 
 @NgModule({
   declarations: [AppComponent, StateListComponent, CarouselComponent],
@@ -18,6 +20,7 @@ import { AsyncPipe } from '@angular/common';
     NgbModule,
     HttpClientModule,
     MatToolbarModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

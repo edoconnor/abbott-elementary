@@ -11,6 +11,8 @@ import { TitleCasePipe } from '@angular/common';
   providers: [TitleCasePipe],
 })
 export class StateListComponent implements OnInit {
+  isLoading = false;
+ 
   states$: Observable<State[]> = new Observable();
 
   constructor(private statesService: StateService) {}
@@ -18,10 +20,13 @@ export class StateListComponent implements OnInit {
   visible: any = {};
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.fetchStates();
   }
 
   private fetchStates(): void {
     this.states$ = this.statesService.getStates();
+    this.isLoading = false;
   }
+ 
 }

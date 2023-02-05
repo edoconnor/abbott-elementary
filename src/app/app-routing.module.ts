@@ -4,7 +4,7 @@ import { StateListComponent } from './state-list/state-list.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'carousel', pathMatch: 'full' },
+  { path: '', redirectTo: 'states', pathMatch: 'full' },
   { path: 'states', component: StateListComponent },
   { path: 'carousel', component: CarouselComponent },
 ];
