@@ -1,0 +1,402 @@
+[
+    {
+    "_id": "63543a8cfab07993d802cb68",
+    "name": "alabama",
+    "capital": "montgomery",
+    "postal": "al",
+    "standard": "ala.",
+    "plates": "https://theus50.com/images/state-licenses/alabama-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb69",
+    "name": "alaska",
+    "capital": "juneau",
+    "postal": "ak",
+    "standard": "alaska",
+    "plates": "https://theus50.com/images/state-licenses/alaska-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6a",
+    "name": "arizona",
+    "capital": "phoenix",
+    "postal": "az",
+    "standard": "ariz.",
+    "plates": "https://theus50.com/images/state-licenses/arizona-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6b",
+    "name": "arkansas",
+    "capital": "little rock",
+    "postal": "ar",
+    "standard": "ark.",
+    "plates": "https://theus50.com/images/state-licenses/arkansas-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6c",
+    "name": "california",
+    "capital": "sacramento",
+    "postal": "ca",
+    "standard": "calif.",
+    "plates": "https://theus50.com/images/state-licenses/california-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6d",
+    "name": "colorado",
+    "capital": "denver",
+    "postal": "co",
+    "standard": "color.",
+    "plates": "https://theus50.com/images/state-licenses/colorado-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6e",
+    "name": "connecticut",
+    "capital": "hartford",
+    "postal": "ct",
+    "standard": "conn.",
+    "plates": "https://theus50.com/images/state-licenses/connecticut-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb6f",
+    "name": "delaware",
+    "capital": "dover",
+    "postal": "de",
+    "standard": "del.",
+    "plates": "https://theus50.com/images/state-licenses/delaware-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb70",
+    "name": "florida",
+    "capital": "tallahassee",
+    "postal": "fl",
+    "standard": "fla.",
+    "plates": "https://theus50.com/images/state-licenses/florida-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb71",
+    "name": "georgia",
+    "capital": "atlanta",
+    "postal": "ga",
+    "standard": "ga.",
+    "plates": "https://theus50.com/images/state-licenses/georgia-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb72",
+    "name": "hawaii",
+    "capital": "honolulu",
+    "postal": "hi",
+    "standard": "hawaii",
+    "plates": "https://theus50.com/images/state-licenses/hawaii-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb73",
+    "name": "idaho",
+    "capital": "boise",
+    "postal": "id",
+    "standard": "idaho",
+    "plates": "https://theus50.com/images/state-licenses/idaho-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb74",
+    "name": "illinois",
+    "capital": "springfield",
+    "postal": "il",
+    "standard": "ill.",
+    "plates": "https://theus50.com/images/state-licenses/illinois-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb75",
+    "name": "indiana",
+    "capital": "indianapolis",
+    "postal": "in",
+    "standard": "ind.",
+    "plates": "https://theus50.com/images/state-licenses/indiana-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb76",
+    "name": "iowa",
+    "capital": "des moines",
+    "postal": "ia",
+    "standard": "iowa",
+    "plates": "https://theus50.com/images/state-licenses/iowa-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb77",
+    "name": "kansas",
+    "capital": "topeka",
+    "postal": "ks",
+    "standard": "kan.",
+    "plates": "https://theus50.com/images/state-licenses/kansas-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb78",
+    "name": "kentucky",
+    "capital": "frankfort",
+    "postal": "ky",
+    "standard": "ky.",
+    "plates": "https://theus50.com/images/state-licenses/kentucky-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb79",
+    "name": "louisiana",
+    "capital": "baton rouge",
+    "postal": "la",
+    "standard": "la.",
+    "plates": "https://theus50.com/images/state-licenses/louisiana-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7a",
+    "name": "maine",
+    "capital": "augusta",
+    "postal": "me",
+    "standard": "maine",
+    "plates": "https://theus50.com/images/state-licenses/maine-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7b",
+    "name": "maryland",
+    "capital": "annapolis",
+    "postal": "md",
+    "standard": "md.",
+    "plates": "https://theus50.com/images/state-licenses/maryland-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7c",
+    "name": "massachusetts",
+    "capital": "boston",
+    "postal": "ma",
+    "standard": "mass.",
+    "plates": "https://theus50.com/images/state-licenses/massachusetts-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7d",
+    "name": "michigan",
+    "capital": "lansing",
+    "postal": "mi",
+    "standard": "mich.",
+    "plates": "https://theus50.com/images/state-licenses/michigan-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7e",
+    "name": "minnesota",
+    "capital": "saint paul",
+    "postal": "mn",
+    "standard": "minn.",
+    "plates": "https://theus50.com/images/state-licenses/minnesota-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb7f",
+    "name": "mississippi",
+    "capital": "jackson",
+    "postal": "ms",
+    "standard": "miss.",
+    "plates": "https://theus50.com/images/state-licenses/mississippi-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb80",
+    "name": "missouri",
+    "capital": "jefferson city",
+    "postal": "mo",
+    "standard": "mo.",
+    "plates": "https://theus50.com/images/state-licenses/missouri-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb81",
+    "name": "montana",
+    "capital": "helena",
+    "postal": "mt",
+    "standard": "mont.",
+    "plates": "https://theus50.com/images/state-licenses/montana-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb82",
+    "name": "nebraska",
+    "capital": "lincoln",
+    "postal": "ne",
+    "standard": "neb.",
+    "plates": "https://theus50.com/images/state-licenses/nebraska-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb83",
+    "name": "nevada",
+    "capital": "carson city",
+    "postal": "nv",
+    "standard": "nev.",
+    "plates": "https://theus50.com/images/state-licenses/nevada-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb84",
+    "name": "new hampshire",
+    "capital": "concord",
+    "postal": "nh",
+    "standard": "n.h.",
+    "plates": "https://theus50.com/images/state-licenses/newhampshire-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb85",
+    "name": "new jersey",
+    "capital": "trenton",
+    "postal": "nj",
+    "standard": "n.j.",
+    "plates": "https://theus50.com/images/state-licenses/newjersey-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb86",
+    "name": "new mexico",
+    "capital": "santa fe",
+    "postal": "nm",
+    "standard": "n.m.",
+    "plates": "https://theus50.com/images/state-licenses/newmexico-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb87",
+    "name": "new york",
+    "capital": "albany",
+    "postal": "ny",
+    "standard": "n.y.",
+    "plates": "https://theus50.com/images/state-licenses/newyork-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb88",
+    "name": "north carolina",
+    "capital": "raleigh",
+    "postal": "nc",
+    "standard": "n.c.",
+    "plates": "https://theus50.com/images/state-licenses/northcarolina-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb89",
+    "name": "north dakota",
+    "capital": "bismarck",
+    "postal": "nd",
+    "standard": "n.d.",
+    "plates": "https://theus50.com/images/state-licenses/northdakota-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8a",
+    "name": "ohio",
+    "capital": "columbus",
+    "postal": "oh",
+    "standard": "ohio",
+    "plates": "https://theus50.com/images/state-licenses/ohio-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8b",
+    "name": "oklahoma",
+    "capital": "oklahoma city",
+    "postal": "ok",
+    "standard": "okla.",
+    "plates": "https://theus50.com/images/state-licenses/oklahoma-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8c",
+    "name": "oregon",
+    "capital": "salem",
+    "postal": "or",
+    "standard": "ore.",
+    "plates": "https://theus50.com/images/state-licenses/oregon-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8d",
+    "name": "pennsylvania",
+    "capital": "harrisburg",
+    "postal": "pa",
+    "standard": "pa.",
+    "plates": "https://theus50.com/images/state-licenses/pennsylvania-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8e",
+    "name": "rhode island",
+    "capital": "providence",
+    "postal": "ri",
+    "standard": "r.i.",
+    "plates": "https://theus50.com/images/state-licenses/rhodeisland-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb8f",
+    "name": "south carolina",
+    "capital": "columbia",
+    "postal": "sc",
+    "standard": "s.c.",
+    "plates": "https://theus50.com/images/state-licenses/southcarolina-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb90",
+    "name": "south dakota",
+    "capital": "pierre",
+    "postal": "sd",
+    "standard": "s.dak.",
+    "plates": "https://theus50.com/images/state-licenses/southdakota-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb91",
+    "name": "tennessee",
+    "capital": "nashville",
+    "postal": "tn",
+    "standard": "tenn.",
+    "plates": "https://theus50.com/images/state-licenses/tennessee-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb92",
+    "name": "texas",
+    "capital": "austin",
+    "postal": "tx",
+    "standard": "tex.",
+    "plates": "https://theus50.com/images/state-licenses/texas-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb93",
+    "name": "utah",
+    "capital": "salt lake city",
+    "postal": "ut",
+    "standard": "utah",
+    "plates": "https://theus50.com/images/state-licenses/utah-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb94",
+    "name": "vermont",
+    "capital": "montpelier",
+    "postal": "vt",
+    "standard": "v.t.",
+    "plates": "https://theus50.com/images/state-licenses/vermont-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb95",
+    "name": "virginia",
+    "capital": "richmond",
+    "postal": "va",
+    "standard": "va.",
+    "plates": "https://theus50.com/images/state-licenses/virginia-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb96",
+    "name": "washington",
+    "capital": "olympia",
+    "postal": "wa",
+    "standard": "wash.",
+    "plates": "https://theus50.com/images/state-licenses/washington-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb97",
+    "name": "west virginia",
+    "capital": "charleston",
+    "postal": "wv",
+    "standard": "w.va.",
+    "plates": "https://theus50.com/images/state-licenses/westvirginia-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb98",
+    "name": "wisconsin",
+    "capital": "madison",
+    "postal": "wi",
+    "standard": "wis.",
+    "plates": "https://theus50.com/images/state-licenses/wisconsin-license.jpg"
+    },
+    {
+    "_id": "63543a8cfab07993d802cb99",
+    "name": "wyoming",
+    "capital": "cheyenne",
+    "postal": "wy",
+    "standard": "wyo.",
+    "plates": "https://theus50.com/images/state-licenses/wyoming-license.jpg"
+    }
+    ]

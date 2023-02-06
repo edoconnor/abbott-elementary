@@ -1,74 +1,12 @@
-h4 {
-  color: #1e272e;
+button {
+  width: 300px;
+  margin-bottom: 0.5rem;
 }
-h4:hover {
-  color: #95a5a6;
-}
-h4 {
-  font-weight: 200;
-}
-img {
-  margin-top: 0.25rem;
-}
-.card {
-  height: 40vh;
-}
-
-.capital {
-  padding-top: 0.5rem;
-  font-weight: 300;
-  color: #7f8c8d;
-}
-.state:hover + .hide {
-  display: block;
-  opacity: 1;
-  transition: opacity 1s ease-out;
-}
-.hide {
-  display: none;
-  color: #e74c3c;
-}
-h2 {
-  cursor: pointer;
-}
-.question-container {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-}
-.button-row {
+.btn-group {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
-.btn-outline-primary {
-  margin-bottom: 0.75rem;
-}
-.loader-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  z-index: 99;
-}
-@media (max-width: 576px) {
-  .card {
-    height: 100vh;
-    width: 100vw;
-  }
-}
-@media (max-width: 750px) {
-  .card {
-    height: 75vh;
-    width: 40vw;
-  }
-  .container {
-    height: 100vh;
-    width: 100vw;
-  }
-}
-
-@media (min-width: 1000px) {
-  .card {
-    height: 55vh;
-  
-  }
+.question {
+  margin-bottom: 1.5rem;
 }
