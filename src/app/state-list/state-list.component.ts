@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { State } from '../state';
 import { StateService } from '../state.service';
 import { TitleCasePipe } from '@angular/common';
+import { LoaderService } from '../loader/loader.service';
 
 @Component({
   selector: 'app-state-list',
@@ -12,21 +13,21 @@ import { TitleCasePipe } from '@angular/common';
 })
 export class StateListComponent implements OnInit {
   isLoading = false;
- 
+
   states$: Observable<State[]> = new Observable();
 
-  constructor(private statesService: StateService) {}
+  constructor(
+    private statesService: StateService,
+    public loaderService: LoaderService
+  ) {}
 
   visible: any = {};
 
   ngOnInit(): void {
-    this.isLoading = true;
     this.fetchStates();
   }
 
   private fetchStates(): void {
     this.states$ = this.statesService.getStates();
-    this.isLoading = false;
   }
- 
 }

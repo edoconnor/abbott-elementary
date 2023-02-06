@@ -1,4 +1,6 @@
-<mat-progress-bar *ngIf="isLoading" mode="indeterminate"></mat-progress-bar>
+<div class="loader-container" *ngIf="loaderService.isLoading | async" >
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</div>
 <div class="container">
   <div class="row">
     <div *ngFor="let state of states$ | async" class="col-12 col-sm-6 col-lg-4">

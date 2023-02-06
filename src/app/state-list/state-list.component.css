@@ -37,3 +37,10 @@ h3 {
 .example-button {
   margin-top: 16px;
 }
+.loader-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  z-index: 99;
+}
