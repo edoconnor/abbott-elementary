@@ -1,4 +1,4 @@
-<div class="loader-container" *ngIf="loaderService.isLoading | async" >
+<div class="loader-container" *ngIf="loaderService.isLoading | async">
   <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
 <div class="container">
@@ -12,12 +12,32 @@
           alt="Responsive image"
         />
         <div>
-          <h3 class="state text-center">
-            {{ state.name | titlecase }}
-          </h3>
-          <h4 *ngIf="state.visible" class="capital text-center">
+          <div class="question-container">
+          <h2 class="state text-center">
+            What is the capital of {{ state.name | titlecase }}?
+          </h2>
+        </div>
+          <div class="container-fluid">
+            <div class="button-row text-center mt-3">
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-outline-primary btn-block">Block level button</button>
+              </div>
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-outline-primary btn-block">Block level button</button>
+              </div>
+            </div>
+            <div class="button-row text-center">
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-outline-primary btn-block">Block level button</button>
+              </div>
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-outline-primary btn-block">Block level button</button>
+              </div>
+            </div>
+          </div>
+          <h3 *ngIf="state.visible" class="capital text-center">
             🏛️= {{ state.capital | titlecase }}
-          </h4>
+          </h3>
         </div>
       </div>
     </div>

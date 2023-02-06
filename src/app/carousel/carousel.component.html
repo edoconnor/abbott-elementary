@@ -1,28 +1,28 @@
-<div class="container">
+<div class="container my-3">
   <div
     id="carouselExampleControls"
     data-interval="false"
-    class="carousel slide"
+    class="carousel carousel-dark slide"
     data-ride="carousel"
   >
-    <div class="carousel-inner">
+    <div class="carousel-inner mx-auto">
       <div
-        class="carousel-item"
+        class="carousel-item text-center mt-3"
         *ngFor="let state of states$ | async; let i = index"
         [ngClass]="{ active: i == 0 }"
       >
-        <div class="cards-wrapper">
-          <div class="card">
-            <img src="{{ state.plates }}" alt="Responsive image" />
-            <div class="card-body">
-              <h5 class="card-title">{{ state.name | titlecase }}</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <div class="image-field mx-auto">
+          <img src="{{ state.plates }}" alt="Responsive image" />
+        </div>
+        <h2 class="question mt-3 mb-3 mx-auto">
+          What is the capital of <br />
+          {{ state.name | titlecase }}?
+        </h2>
+        <div class="answer-buttons mx-auto">
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-primary">Primary</button>
         </div>
       </div>
     </div>

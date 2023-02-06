@@ -6,7 +6,6 @@ import { CarouselComponent } from './carousel/carousel.component';
 const routes: Routes = [
   { path: '', redirectTo: 'states', pathMatch: 'full' },
   { path: 'states', component: StateListComponent },
-  { path: 'carousel', component: CarouselComponent },
 ];
 
 @NgModule({

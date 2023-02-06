@@ -1,24 +1,22 @@
-h3 {
+h4 {
   color: #1e272e;
 }
-h3:hover {
+h4:hover {
   color: #95a5a6;
 }
 h4 {
   font-weight: 200;
 }
 img {
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 .card {
   height: 40vh;
 }
-.state {
-  margin-top: 1rem;
-}
+
 .capital {
-  margin-top: 1 rem;
-  font-weight: 400;
+  padding-top: 0.5rem;
+  font-weight: 300;
   color: #7f8c8d;
 }
 .state:hover + .hide {
@@ -30,12 +28,19 @@ img {
   display: none;
   color: #e74c3c;
 }
-
-h3 {
+h2 {
   cursor: pointer;
 }
-.example-button {
-  margin-top: 16px;
+.question-container {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.button-row {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-outline-primary {
+  margin-bottom: 0.75rem;
 }
 .loader-container {
   position: absolute;
@@ -43,4 +48,26 @@ h3 {
   width: 100%;
   opacity: 1;
   z-index: 99;
+}
+@media (max-width: 576px) {
+  .card {
+    height: 50vh;
+  }
+}
+@media (max-width: 750px) {
+  .card {
+    height: 60vh;
+    width: 40vw;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card {
+    height: 55vh;
+  
+  }
 }
