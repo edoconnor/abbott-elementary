@@ -1,10 +1,10 @@
 <div class="loader-container" *ngIf="loaderService.isLoading | async">
   <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
-<div class="page py-5 bg-light">
+<div class="page py-3 bg-light">
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-      <div *ngFor="let state of states$ | async" class="col">
+      <div *ngFor="let state of states" class="col">
         <div class="card shadow-sm">
           <img
             (click)="state.visible = !state.visible"
@@ -20,16 +20,16 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group mx-auto">
-                <button type="button" class="btn btn-outline-primary">
+                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice1, state.capital)">
                   {{ state.choice1 }}
                 </button>
-                <button type="button" class="btn btn-outline-primary">
+                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice2, state.capital)">
                   {{ state.choice2 }}
                 </button>
-                <button type="button" class="btn btn-outline-primary">
+                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice3, state.capital)">
                   {{ state.choice3 }}
                 </button>
-                <button type="button" class="btn btn-outline-primary">
+                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice4, state.capital)">
                   {{ state.choice4 }}
                 </button>
               </div>
