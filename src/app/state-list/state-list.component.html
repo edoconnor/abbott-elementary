@@ -20,17 +20,29 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group mx-auto">
-                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice1, state.capital)">
-                  {{ state.choice1 }}
+                <button
+                  class="btn btn-outline-primary"
+                  (click)="compareSelection(state.choice1, state.capital)"
+                >
+                  {{ state.choice1 | titlecase }}
                 </button>
-                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice2, state.capital)">
-                  {{ state.choice2 }}
+                <button
+                  class="btn btn-outline-primary"
+                  (click)="compareSelection(state.choice2, state.capital)"
+                >
+                  {{ state.choice2 | titlecase }}
                 </button>
-                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice3, state.capital)">
-                  {{ state.choice3 }}
+                <button
+                  class="btn btn-outline-primary"
+                  (click)="compareSelection(state.choice3, state.capital)"
+                >
+                  {{ state.choice3 | titlecase }}
                 </button>
-                <button class="btn btn-outline-primary" (click)="compareSelection(state.choice4, state.capital)">
-                  {{ state.choice4 }}
+                <button
+                  class="btn btn-outline-primary"
+                  (click)="compareSelection(state.choice4, state.capital)"
+                >
+                  {{ state.choice4 | titlecase }}
                 </button>
               </div>
             </div>
