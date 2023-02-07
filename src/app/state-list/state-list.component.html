@@ -6,15 +6,12 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
       <div *ngFor="let state of states$ | async" class="col">
         <div class="card shadow-sm">
-          <!-- <img
+          <img
             (click)="state.visible = !state.visible"
             class="img-fluid"
             src="{{ state.flags }}"
             alt="Responsive image"
-          /> -->
-
-          <img class="img-fluid p-5" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg" alt="state flag">
-
+          />
           <div class="card-body">
             <div class="question">
               <h2 class="text-center">
