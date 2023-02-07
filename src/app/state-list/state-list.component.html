@@ -1,17 +1,19 @@
 <div class="loader-container" *ngIf="loaderService.isLoading | async">
   <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
-<div class="album py-5 bg-light">
+<div class="page py-5 bg-light">
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
       <div *ngFor="let state of states$ | async" class="col">
         <div class="card shadow-sm">
-          <img
+          <!-- <img
             (click)="state.visible = !state.visible"
             class="img-fluid"
-            src="{{ state.plates }}"
+            src="{{ state.flags }}"
             alt="Responsive image"
-          />
+          /> -->
+
+          <img class="img-fluid p-5" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg" alt="state flag">
 
           <div class="card-body">
             <div class="question">
@@ -22,16 +24,16 @@
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group mx-auto">
                 <button type="button" class="btn btn-outline-primary">
-                  Choice1
+                  {{ state.choice1 }}
                 </button>
                 <button type="button" class="btn btn-outline-primary">
-                  Choice2
+                  {{ state.choice2 }}
                 </button>
                 <button type="button" class="btn btn-outline-primary">
-                  Choice3
+                  {{ state.choice3 }}
                 </button>
                 <button type="button" class="btn btn-outline-primary">
-                  Choice4
+                  {{ state.choice4 }}
                 </button>
               </div>
             </div>

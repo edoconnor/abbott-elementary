@@ -29,22 +29,4 @@ export class StateService {
   getState(id: string): Observable<State> {
     return this.httpClient.get<State>(`${this.url}/states/${id}`);
   }
-
-  createState(state: State): Observable<string> {
-    return this.httpClient.post(`${this.url}/states`, state, {
-      responseType: 'text',
-    });
-  }
-
-  updateState(id: string, state: State): Observable<string> {
-    return this.httpClient.put(`${this.url}/states/${id}`, state, {
-      responseType: 'text',
-    });
-  }
-
-  deleteState(id: string): Observable<string> {
-    return this.httpClient.delete(`${this.url}/states/${id}`, {
-      responseType: 'text',
-    });
-  }
 }
