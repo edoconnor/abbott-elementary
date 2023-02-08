@@ -1,6 +1,7 @@
 button {
   width: 300px;
   margin-bottom: 0.5rem;
+  border-radius: 0;
 }
 .btn-group {
   display: flex;
