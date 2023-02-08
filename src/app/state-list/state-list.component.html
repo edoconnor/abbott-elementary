@@ -23,26 +23,30 @@
                 <button
                   class="btn btn-outline-primary"
                   (click)="compareSelection(state.choice1, state.capital)"
+                  [ngStyle]="state.choice1 === selectedChoice ? btnStyle : {}"
                 >
-                  {{ state.choice1 | titlecase }}
+                  {{ state.choice1 === selectedChoice ? btnMessage : state.choice1 | titlecase }}
                 </button>
                 <button
                   class="btn btn-outline-primary"
                   (click)="compareSelection(state.choice2, state.capital)"
+                  [ngStyle]="state.choice2 === selectedChoice ? btnStyle : {}"
                 >
-                  {{ state.choice2 | titlecase }}
+                  {{ state.choice2 === selectedChoice ? btnMessage : state.choice2 | titlecase }}
                 </button>
                 <button
                   class="btn btn-outline-primary"
                   (click)="compareSelection(state.choice3, state.capital)"
+                  [ngStyle]="state.choice3 === selectedChoice ? btnStyle : {}"
                 >
-                  {{ state.choice3 | titlecase }}
+                  {{ state.choice3 === selectedChoice ? btnMessage : state.choice3 | titlecase }}
                 </button>
                 <button
                   class="btn btn-outline-primary"
                   (click)="compareSelection(state.choice4, state.capital)"
+                  [ngStyle]="state.choice4 === selectedChoice ? btnStyle : {}"
                 >
-                  {{ state.choice4 | titlecase }}
+                  {{ state.choice4 === selectedChoice ? btnMessage : state.choice4 | titlecase }}
                 </button>
               </div>
             </div>

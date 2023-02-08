@@ -11,12 +11,17 @@ import { StateService } from '../state.service';
   providers: [TitleCasePipe],
 })
 export class StateListComponent implements OnInit {
-
   states: State[];
 
   isLoading = false;
 
   correctAnswer = false;
+
+  selectedChoice: string;
+
+  btnStyle: {};
+
+  btnMessage: string;
 
   constructor(
     private statesService: StateService,
@@ -24,7 +29,7 @@ export class StateListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.statesService.getStates().subscribe(states => {
+    this.statesService.getStates().subscribe((states) => {
       this.states = states;
     });
   }
@@ -32,11 +37,13 @@ export class StateListComponent implements OnInit {
     console.log(choice);
   }
   compareSelection(choice: string, capital: string) {
+    this.selectedChoice = choice;
     if (choice.toLowerCase() === capital.toLowerCase()) {
-     alert("Great job! The correct answer is " + capital)
+      this.btnStyle = {'background-color': 'green', 'color': 'white', 'font-weight': 'bold'};
+      this.btnMessage = "Correct!";
     } else {
-      alert("Incorrect. The correct answer is " + capital);
+      this.btnStyle = {'background-color': 'red', 'color': 'white', 'font-weight': 'bold'};
+      this.btnMessage = "Incorrect!";
     }
   }
-  
 }
