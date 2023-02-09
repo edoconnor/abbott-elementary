@@ -1,20 +1,30 @@
-<nav class="navbar navbar-light bg-dark">
-  <a class="navbar-brand mx-auto" href="/"
-    ><h2 class="title-text">Quiz App</h2></a
-  >
+<nav class="navbar navbar-light bg-dark justify-content-center">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="navbar-brand" href="/"><h2 class="title-text">Quiz App</h2></a>
+    </li>
+    <li class="nav-item">
+      <button
+        (click)="startTimer()"
+        type="button"
+        id="start-button"
+        class="btn btn-outline-light"
+      >
+        New Quiz
+      </button>
+    </li>
+  </ul>
 </nav>
-<div class="hud-container">
-  <div class="row hud-div">
-    <div class="col">
-      <h2 class="hud-text pt-1">Score: {{ (score / 100) * 100 }}%</h2>
-    </div>
-    <div class="col">
-      <h2 class="hud-text pt-1">Time: {{ 60 - timeLeft }} sec</h2>
-    </div>
-    <div class="col">
-      <h2 class="hud-text pt-1">[NewGame]</h2>
-    </div>
-  </div>
+<div class="hud-container justify-content-center">
+  <ul class="nav">
+    <li class="nav-item">
+      <h3 id="left" class="hud-text pt-1">Score: {{ (score / 100) * 100 }}%</h3>
+    </li>
+    
+    <li class="nav-item">
+      <h3 id="right" class="hud-text pt-1">Time: {{ 60 - timeLeft }} sec</h3>
+    </li>
+  </ul>
 </div>
 
 <div class="loader-container" *ngIf="loaderService.isLoading | async">
