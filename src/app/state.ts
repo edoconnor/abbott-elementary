@@ -9,4 +9,6 @@ export interface State {
   plates?: string;
   flags?: string;
   visible: boolean;
+  selectedChoice?: string;
+  answered: boolean;
 }

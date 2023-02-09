@@ -10,6 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AsyncPipe } from '@angular/common';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { InterceptorService } from './loader/interceptor.service';
+import {MatButtonModule} from '@angular/material/button';
  
 
 @NgModule({
@@ -20,7 +21,8 @@ import { InterceptorService } from './loader/interceptor.service';
     NgbModule,
     HttpClientModule,
     MatToolbarModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatButtonModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: InterceptorService, multi: true }
