@@ -11,10 +11,11 @@ import { AsyncPipe } from '@angular/common';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { InterceptorService } from './loader/interceptor.service';
 import {MatButtonModule} from '@angular/material/button';
+import { StateCarouselComponent } from './state-carousel/state-carousel.component';
  
 
 @NgModule({
-  declarations: [AppComponent, StateListComponent],
+  declarations: [AppComponent, StateListComponent, StateCarouselComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
