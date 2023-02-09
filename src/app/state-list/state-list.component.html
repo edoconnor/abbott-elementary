@@ -1,26 +1,27 @@
-<mat-toolbar>
-  <a href="/"><h1 class="app-title">Quiz App</h1></a>
-  <span class="spacer"></span>
-  <button
-    (click)="startTimer()"
-    class="start-button"
-    mat-flat-button
-    color="primary"
+<nav class="navbar navbar-light bg-dark">
+  <a class="navbar-brand mx-auto" href="/"
+    ><h2 class="title-text">Quiz App</h2></a
   >
-    Start
-  </button>
-</mat-toolbar>
+</nav>
+<div class="hud-container">
+  <div class="row hud-div">
+    <div class="col">
+      <h2 class="hud-text pt-1">Score: {{ (score / 100) * 100 }}%</h2>
+    </div>
+    <div class="col">
+      <h2 class="hud-text pt-1">Time: {{ 60 - timeLeft }} sec</h2>
+    </div>
+    <div class="col">
+      <h2 class="hud-text pt-1">[NewGame]</h2>
+    </div>
+  </div>
+</div>
+
 <div class="loader-container" *ngIf="loaderService.isLoading | async">
   <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
 <div class="page py-3 bg-light">
   <div class="container">
-    <div class="hud-display">
-     
-      <h2 class="hud-text">Score: {{ score }}/100</h2>
-      <h2 class="hud-text">Time: {{ 60 - timeLeft }} sec</h2>
-    </div>
-
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
       <div *ngFor="let state of states" class="col">
         <div class="card shadow-sm">

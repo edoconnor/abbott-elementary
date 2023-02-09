@@ -12,17 +12,22 @@ img {
   padding-left: 1rem;
   padding-bottom: 0;
 }
-mat-toolbar {
-  background-color: #2d3436;
-  height: 65px;
-  justify-content: center;
-}
-h1 {
+.title-text {
   color: white;
   font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  padding-top: 0.25rem;
 }
 a:link {
   text-decoration: none;
+}
+
+.hud-text,
+.start-button {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  color: #2d3436;
+  vertical-align: middle;
 }
 .spacer {
   flex: 1 1 auto;
@@ -35,13 +40,21 @@ a:link {
 }
 #answer-button {
   width: 300px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   border-radius: 0;
 }
-.hud-display {
-  display: flex;
+.hud-container {
+  background-color: yellow;
+}
+.hud-div {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hud-text {
   flex: 1 1 auto;
   text-align: center;
+}
+.start-button {
+  vertical-align: middle;
 }
