@@ -5,12 +5,12 @@
     </li>
     <li class="nav-item">
       <button
-        (click)="startTimer()"
+        (click)="resetGame()"
         type="button"
         id="start-button"
         class="btn btn-outline-light"
       >
-        New Quiz
+        New Game
       </button>
     </li>
   </ul>
@@ -35,12 +35,12 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
       <div *ngFor="let state of states" class="col">
         <div class="card shadow-sm">
-          <img
+          <div class="image-container"><img
             (click)="state.visible = !state.visible"
             class="img-fluid"
             src="{{ state.flags }}"
             alt="Responsive image"
-          />
+          /></div>
           <div class="card-body">
             <div class="question">
               <h2 class="text-center">

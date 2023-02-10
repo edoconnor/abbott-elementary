@@ -12,12 +12,19 @@ img {
   padding-left: 1rem;
   padding-bottom: 0;
 }
+.image-container {
+  height: 300px;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%; 
+  height: auto;  
+}
 .title-text {
   color: white;
   font-family: "Roboto Mono", monospace;
   font-size: 1.5rem;
   padding-top: 0.35rem;
-
 }
 .hud-text {
   font-family: "Roboto Mono", monospace;
@@ -25,8 +32,8 @@ img {
   color: #2d3436;
   vertical-align: middle;
 }
-#start-button{
-  margin-top: .2rem;
+#start-button {
+  margin-top: 0.2rem;
 }
 #answer-button {
   width: 300px;
@@ -49,10 +56,10 @@ img {
 
 .navbar {
   height: 65px;
-} 
+}
 .nav-item {
   margin-right: 1rem;
 }
-#left{
+#left {
   margin-right: 1rem;
 }

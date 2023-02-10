@@ -83,4 +83,11 @@ export class StateListComponent implements OnInit {
       this.stopTimer();
     }
   }
+  resetGame(): void {
+    this.score = 0;
+    this.timeLeft = 60;
+    this.states = this.selectRandomQuestions(this.states, 10);
+    this.states.forEach(state => state.answered = false);
+    this.startTimer();
+  }
 }
