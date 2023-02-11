@@ -1,0 +1,10 @@
+.score-container {
+    height: 100vh;
+    background-color: #dff9fb;
+}
+.message-container{
+    height: 50vh;
+    width: 90vw;
+    padding: 2rem;
+    background-color: #f6e58d;
+}

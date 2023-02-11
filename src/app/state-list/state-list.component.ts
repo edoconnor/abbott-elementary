@@ -3,6 +3,8 @@ import { State } from '../state';
 import { TitleCasePipe } from '@angular/common';
 import { LoaderService } from '../loader/loader.service';
 import { StateService } from '../state.service';
+import { SharedDataService } from '../shared-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-state-list',
@@ -19,17 +21,24 @@ export class StateListComponent implements OnInit {
   btnStyle: {};
   btnMessage: string;
   score = 0;
-  timeLeft = 60;
+  timeLeft = 10;
   interval;
+  answeredQuestions = 0;
+  randomQuestions = [];
+  currentIndex = 0;
+  questionCount = 3;
 
   constructor(
     private statesService: StateService,
-    public loaderService: LoaderService
+    public loaderService: LoaderService,
+    private sharedDataService: SharedDataService,
+    private router: Router
   ) {}
 
   ngOnInit() {
     this.statesService.getStates().subscribe((states) => {
-      this.states = this.selectRandomQuestions(states, 10);
+      this.states = this.selectRandomQuestions(states, 3);
+      console.log(this.states);
     });
   }
 
@@ -55,6 +64,7 @@ export class StateListComponent implements OnInit {
 
   stopTimer(): void {
     clearInterval(this.interval);
+    this.timeLeft = 0;
   }
 
   compareSelection(choice: string, capital: string) {
@@ -79,15 +89,15 @@ export class StateListComponent implements OnInit {
       };
       this.btnMessage = 'Incorrect!';
     }
-    if (this.states.every((state) => state.answered)) {
-      this.stopTimer();
-    }
+     
   }
   resetGame(): void {
     this.score = 0;
-    this.timeLeft = 60;
-    this.states = this.selectRandomQuestions(this.states, 10);
-    this.states.forEach(state => state.answered = false);
+    this.timeLeft = 10;
+    this.statesService.getStates().subscribe((states) => {
+      this.states = this.selectRandomQuestions(states, 3);
+      console.log(this.states);
+    });
     this.startTimer();
   }
 }
