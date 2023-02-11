@@ -27,6 +27,8 @@ export class StateListComponent implements OnInit {
   randomQuestions = [];
   currentIndex = 0;
   questionCount = 3;
+  startTime: number;
+ 
 
   constructor(
     private statesService: StateService,
@@ -39,6 +41,7 @@ export class StateListComponent implements OnInit {
     this.statesService.getStates().subscribe((states) => {
       this.states = this.selectRandomQuestions(states, 3);
       console.log(this.states);
+      
     });
   }
 
@@ -52,23 +55,9 @@ export class StateListComponent implements OnInit {
     return randomQuestions;
   }
 
-  startTimer(): void {
-    this.interval = setInterval(() => {
-      if (this.timeLeft > 0) {
-        this.timeLeft--;
-      } else {
-        this.stopTimer();
-      }
-    }, 1000);
-  }
-
-  stopTimer(): void {
-    clearInterval(this.interval);
-    this.timeLeft = 0;
-  }
-
   compareSelection(choice: string, capital: string) {
     this.selectedChoice = choice;
+    this.answeredQuestions++;
 
     const currentState = this.states.find((state) => state.capital === capital);
     currentState.answered = true;
@@ -89,8 +78,27 @@ export class StateListComponent implements OnInit {
       };
       this.btnMessage = 'Incorrect!';
     }
-     
+
+    const answeredQuestions = this.states.filter(
+      (state) => state.answered === true
+    );
+
+    this.answeredQuestions = answeredQuestions.length;
+
+    if (answeredQuestions.length === this.questionCount) {
+      
+       
+      this.router.navigate(['/results']);
+    } else {
+ 
+      const nextLink = document.querySelector('.carousel-control-next');
+      
+      setTimeout(() => {
+        nextLink.dispatchEvent(new MouseEvent('click'));
+      }, 250);
+    }
   }
+
   resetGame(): void {
     this.score = 0;
     this.timeLeft = 10;
@@ -98,6 +106,6 @@ export class StateListComponent implements OnInit {
       this.states = this.selectRandomQuestions(states, 3);
       console.log(this.states);
     });
-    this.startTimer();
+  
   }
 }

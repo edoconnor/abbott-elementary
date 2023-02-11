@@ -22,6 +22,5 @@ export class ScoreComponent implements OnInit {
   ngOnInit() {
     this.score = this.sharedDataService.score;
     this.elapsedTime = this.sharedDataService.elapsedTime;
-  }
-
+}
 }

@@ -12,12 +12,13 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { InterceptorService } from './loader/interceptor.service';
 import {MatButtonModule} from '@angular/material/button';
 import { ScoreComponent } from './score/score.component';
+import { QuizComponent } from './quiz/quiz.component';
  
  
  
 
 @NgModule({
-  declarations: [AppComponent, StateListComponent, ScoreComponent ],
+  declarations: [AppComponent, StateListComponent, ScoreComponent, QuizComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,

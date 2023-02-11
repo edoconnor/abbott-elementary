@@ -1,8 +1,15 @@
 <nav class="navbar sticky-top navbar-light bg-dark justify-content-center">
   <h1 class="title mx-auto">Quiz App</h1>
-</nav>
-
-<div
+</nav>  
+  <ng-container *ngIf="isQuizComplete(); else quiz">
+    <div class="final-score">
+      Final Score: {{ score }} / {{ states.length }}
+      <button (click)="resetQuiz()">Reset Quiz</button>
+    </div>
+   
+  </ng-container>
+  <ng-template #quiz>
+    <div
   id="carouselExampleControls"
   data-interval="false"
   class="carousel slide"
@@ -91,6 +98,7 @@
   </a>
   <a
     class="carousel-control-next"
+    #carouselControlNext
     href="#carouselExampleControls"
     role="button"
     data-slide="next"
@@ -100,9 +108,9 @@
 
   <div class="footer">
     <div class="footer-button text-center">
-      <p class="mx-auto">Score: {{ score }}</p>
+      <p class="mx-auto"> Score: {{ score / states.length * 100 }}</p>
       <button
-        (click)="resetGame()"
+        (click)="resetQuiz()"
         type="button"
         class="btn btn-outline-primary"
       >
@@ -111,3 +119,5 @@
     </div>
   </div>
 </div>
+
+  </ng-template>
