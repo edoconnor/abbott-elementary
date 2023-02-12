@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { State } from '../state';
 import { StateService } from '../state.service';
+import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-quiz',
@@ -25,6 +26,7 @@ export class QuizComponent implements OnInit {
   ngOnInit() {
     this.stateService.getStates().subscribe((states) => {
       this.states = this.selectRandomQuestions(states, 3);
+      this.resetQuiz()
       console.log(this.states);
     });
   }
@@ -69,7 +71,7 @@ export class QuizComponent implements OnInit {
     this.score = 0;
     this.currentQuestion = 0;
     this.stateService.getStates().subscribe((states) => {
-      this.states = this.selectRandomQuestions(states, 3);
+      this.states = this.selectRandomQuestions(states, 5);
       console.log(this.states);
     });
   }
