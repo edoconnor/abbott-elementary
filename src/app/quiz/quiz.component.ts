@@ -3,6 +3,8 @@ import { State } from '../state';
 import { StateService } from '../state.service';
 import { DecimalPipe } from '@angular/common';
 import { LoaderService } from '../loader/loader.service';
+import { SharedDataService } from '../shared-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-quiz',
@@ -11,7 +13,6 @@ import { LoaderService } from '../loader/loader.service';
 })
 export class QuizComponent implements OnInit {
   @ViewChild('carouselControlNext', { static: false })
-
   carouselControlNext: ElementRef;
   allStates: any[];
   questionsPerQuiz: number;
@@ -24,10 +25,13 @@ export class QuizComponent implements OnInit {
 
   constructor(
     private stateService: StateService,
-    public loaderService: LoaderService) {}
+    public loaderService: LoaderService,
+    private sharedDataService: SharedDataService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
-    this.resetQuiz()
+    this.resetQuiz();
   }
 
   selectRandomQuestions(questions: any[], count: number): any[] {
@@ -61,12 +65,16 @@ export class QuizComponent implements OnInit {
     }
     this.carouselControlNext.nativeElement.click();
     this.currentQuestion++;
+    this.isQuizComplete();
   }
 
   isQuizComplete() {
-    return this.currentQuestion === this.states.length;
+    if (this.currentQuestion === this.states.length) {
+      this.sharedDataService.score = this.score;
+      this.router.navigate(['/score']);
+    }
   }
-  resetQuiz() {
+  resetQuiz(): void {
     this.score = 0;
     this.currentQuestion = 0;
     this.stateService.getStates().subscribe((states) => {

@@ -11,8 +11,8 @@ import { Router } from '@angular/router';
 })
 export class ScoreComponent implements OnInit {
 
-  score;
-  elapsedTime;
+  score: number;
+
 
   constructor(
     private router: Router,
@@ -21,6 +21,5 @@ export class ScoreComponent implements OnInit {
 
   ngOnInit() {
     this.score = this.sharedDataService.score;
-    this.elapsedTime = this.sharedDataService.elapsedTime;
 }
 }

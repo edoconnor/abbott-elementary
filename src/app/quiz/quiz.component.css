@@ -59,6 +59,9 @@
   font-family: "Roboto Mono", monospace;
   font-size: 2rem;
 }
+a {
+  text-decoration: none;
+}
 .score {
   font-size: 2.25rem;
 }

@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class SharedDataService {
   public score: number;
-  public elapsedTime: number;
 
   constructor() { }
 }

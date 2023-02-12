@@ -1,153 +1,125 @@
 <nav class="navbar sticky-top navbar-light bg-dark justify-content-center">
-  <h1 class="title mx-auto">Quiz App</h1>
+  <a [routerLink]="['/home']"><h1 class="title mx-auto">Quiz App</h1></a>
 </nav>
 <div *ngIf="loaderService.isLoading | async" class="loader-container">
   <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
-<ng-container *ngIf="isQuizComplete(); else quiz">
-  <div class="results-page">
-    <div class="results-content">
-      <div class="results-header">
-        <h1 class="emoji">👍</h1>
-      </div>
-      <div class="results-message text-center">
-        <h2>Great job!</h2>
-        <div class="results-details p-3">
-          <h3>
-            You got {{ score }} out of {{ states.length }} answers correct!
-          </h3>
-        </div>
-      </div>
-      <button
-        (click)="resetQuiz()"
-        type="button"
-        id="play-again"
-        class="btn btn-outline-primary btn-lg"
-      >
-        Play Again
-      </button>
-    </div>
-  </div>
-</ng-container>
-<ng-template #quiz>
-  <div
-    id="carouselExampleControls"
-    data-interval="false"
-    class="carousel slide"
-    data-ride="carousel"
-  >
-    <div class="carousel-inner">
-      <div
-        class="carousel-item"
-        *ngFor="let state of states; let i = index"
-        [ngClass]="{ active: i == 0 }"
-      >
-        <div class="cards-wrapper">
-          <div class="card mx-auto">
-            <div class="image-container">
-              <img
-                class="img-fluid"
-                src="{{ state.flags }}"
-                alt="Responsive image"
-              />
-            </div>
-            <div class="question-container text-center">
-              <h2 class="question">
-                What is the capital of {{ state.name | titlecase }}?
-              </h2>
-            </div>
-            <div class="answer-buttons mx-auto">
-              <button
-                class="btn btn-outline-primary"
-                id="answer-button"
-                (click)="compareSelection(state.choice1, state.capital)"
-                [ngStyle]="state.choice1 === selectedChoice ? btnStyle : {}"
-              >
-                {{
-                  state.choice1 === selectedChoice
-                    ? btnMessage
-                    : (state.choice1 | titlecase)
-                }}
-              </button>
-              <button
-                class="btn btn-outline-primary"
-                id="answer-button"
-                (click)="compareSelection(state.choice2, state.capital)"
-                [ngStyle]="state.choice2 === selectedChoice ? btnStyle : {}"
-              >
-                {{
-                  state.choice2 === selectedChoice
-                    ? btnMessage
-                    : (state.choice2 | titlecase)
-                }}
-              </button>
-              <button
-                class="btn btn-outline-primary"
-                id="answer-button"
-                (click)="compareSelection(state.choice3, state.capital)"
-                [ngStyle]="state.choice3 === selectedChoice ? btnStyle : {}"
-              >
-                {{
-                  state.choice3 === selectedChoice
-                    ? btnMessage
-                    : (state.choice3 | titlecase)
-                }}
-              </button>
-              <button
-                class="btn btn-outline-primary"
-                id="answer-button"
-                (click)="compareSelection(state.choice4, state.capital)"
-                [ngStyle]="state.choice4 === selectedChoice ? btnStyle : {}"
-              >
-                {{
-                  state.choice4 === selectedChoice
-                    ? btnMessage
-                    : (state.choice4 | titlecase)
-                }}
-              </button>
-            </div>
-            <div class="footer-container">
-              <div class="footer-row">
-                <div class="footer-col">
-                  <button
-                    type="button"
-                    class="btn footer-btn btn-outline-primary"
-                  >
-                    Score: {{ (score / states.length) * 100 }}
-                  </button>
-                </div>
-                <div class="footer-col">
-                  <button
-                    (click)="resetQuiz()"
-                    type="button"
-                    class="btn footer-btn btn-outline-primary"
-                  >
-                    Reset Game
-                  </button>
-                </div>
+<div
+  id="carouselExampleControls"
+  data-interval="false"
+  class="carousel slide"
+  data-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div
+      class="carousel-item"
+      *ngFor="let state of states; let i = index"
+      [ngClass]="{ active: i == 0 }"
+    >
+      <div class="cards-wrapper">
+        <div class="card mx-auto">
+          <div class="image-container">
+            <img
+              class="img-fluid"
+              src="{{ state.flags }}"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="question-container text-center">
+            <h2 class="question">
+              What is the capital of {{ state.name | titlecase }}?
+            </h2>
+          </div>
+          <div class="answer-buttons mx-auto">
+            <button
+              class="btn btn-outline-primary"
+              id="answer-button"
+              (click)="compareSelection(state.choice1, state.capital)"
+              [ngStyle]="state.choice1 === selectedChoice ? btnStyle : {}"
+            >
+              {{
+                state.choice1 === selectedChoice
+                  ? btnMessage
+                  : (state.choice1 | titlecase)
+              }}
+            </button>
+            <button
+              class="btn btn-outline-primary"
+              id="answer-button"
+              (click)="compareSelection(state.choice2, state.capital)"
+              [ngStyle]="state.choice2 === selectedChoice ? btnStyle : {}"
+            >
+              {{
+                state.choice2 === selectedChoice
+                  ? btnMessage
+                  : (state.choice2 | titlecase)
+              }}
+            </button>
+            <button
+              class="btn btn-outline-primary"
+              id="answer-button"
+              (click)="compareSelection(state.choice3, state.capital)"
+              [ngStyle]="state.choice3 === selectedChoice ? btnStyle : {}"
+            >
+              {{
+                state.choice3 === selectedChoice
+                  ? btnMessage
+                  : (state.choice3 | titlecase)
+              }}
+            </button>
+            <button
+              class="btn btn-outline-primary"
+              id="answer-button"
+              (click)="compareSelection(state.choice4, state.capital)"
+              [ngStyle]="state.choice4 === selectedChoice ? btnStyle : {}"
+            >
+              {{
+                state.choice4 === selectedChoice
+                  ? btnMessage
+                  : (state.choice4 | titlecase)
+              }}
+            </button>
+          </div>
+          <div class="footer-container">
+            <div class="footer-row">
+              <div class="footer-col">
+                <button
+                  type="button"
+                  class="btn footer-btn btn-outline-primary"
+                >
+                  Score: {{ (score / states.length) * 100 }}
+                </button>
+              </div>
+              <div class="footer-col">
+                <button
+                  (click)="resetQuiz()"
+                  type="button"
+                  class="btn footer-btn btn-outline-primary"
+                >
+                  Reset Game
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <a
-      class="carousel-control-prev"
-      href="#carouselExampleControls"
-      role="button"
-      data-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <!-- <span class="sr-only">Previous</span> -->
-    </a>
-    <a
-      class="carousel-control-next"
-      #carouselControlNext
-      href="#carouselExampleControls"
-      role="button"
-      data-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </a>
   </div>
-</ng-template>
+  <a
+    class="carousel-control-prev"
+    href="#carouselExampleControls"
+    role="button"
+    data-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a
+    class="carousel-control-next"
+    #carouselControlNext
+    href="#carouselExampleControls"
+    role="button"
+    data-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</div>
