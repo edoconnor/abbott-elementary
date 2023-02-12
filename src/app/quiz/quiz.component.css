@@ -13,12 +13,26 @@
   margin-right: auto;
   margin-top: 2rem;
 }
+.cards-wrapper {
+  height: 100vh;
+  padding-bottom: 56px;
+}
+
+@media (min-width: 768px) {
+  .cards-wrapper {
+    height: auto;
+    padding-bottom: 0;
+  }
+}
 .card {
-  height: 90vh;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
   max-width: 400px;
   border-color: white;
   padding: 1rem 1rem 1rem 1rem;
 }
+
 .image-container img {
   width: 100%;
   height: auto;
@@ -42,7 +56,6 @@
 }
 .footer-btn {
   width: 125px;
-
   margin-right: 0.5rem;
   margin-top: 2rem;
 }
