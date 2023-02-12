@@ -1,3 +1,8 @@
+.loader-container {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
 .btn-group {
   display: flex;
   flex-direction: column;
@@ -17,21 +22,29 @@
   height: 100vh;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   .cards-wrapper {
     height: auto;
     padding-bottom: 56px;
   }
   .card {
     max-width: 300px;
-
+    background-color: yellow;
     padding-top: 0;
   }
   .carousel-inner {
     margin-top: 0.5rem;
   }
 }
-
+@media (min-width: 780px) {
+   
+  .card {
+    max-width: 400px;
+    background-color: red;
+    padding-top: 3rem;
+  }
+   
+}
 .card {
   height: 100%;
   overflow: hidden;
@@ -97,7 +110,7 @@ h1 {
   font-size: 5rem;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   color: #2c3e50;
 }
 

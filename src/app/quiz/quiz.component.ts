@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { State } from '../state';
 import { StateService } from '../state.service';
 import { DecimalPipe } from '@angular/common';
+import { LoaderService } from '../loader/loader.service';
 
 @Component({
   selector: 'app-quiz',
@@ -10,8 +11,8 @@ import { DecimalPipe } from '@angular/common';
 })
 export class QuizComponent implements OnInit {
   @ViewChild('carouselControlNext', { static: false })
-  carouselControlNext: ElementRef;
 
+  carouselControlNext: ElementRef;
   allStates: any[];
   questionsPerQuiz: number;
   states: State[];
@@ -21,7 +22,9 @@ export class QuizComponent implements OnInit {
   btnStyle;
   btnMessage;
 
-  constructor(private stateService: StateService) {}
+  constructor(
+    private stateService: StateService,
+    public loaderService: LoaderService) {}
 
   ngOnInit() {
     this.resetQuiz()
