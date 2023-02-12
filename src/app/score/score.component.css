@@ -5,12 +5,14 @@
     align-items: center;
     justify-content: center;
     background-color: aqua;
+    margin-top: -3rem;
   }
 
   h1 {
     margin: 0;
     text-align: center;
     font-size: 3rem;
+    color: #2c3e50;
     max-width: 600px;
     width: 100%;
   }
