@@ -3,21 +3,24 @@
 </nav>
 <ng-container *ngIf="isQuizComplete(); else quiz">
   <div class="results-page">
-    <div class="results-header">
-      <h1 class="emoji">👍</h1>
+    <div class="results-content">
+      <div class="results-header">
+        <h1 class="emoji">👍</h1>
+      </div>
+      <div class="results-message text-center">
+        <h2>Great job!</h2>
+        <h2>You got {{ score }} out of {{ states.length }} answers correct!</h2>
+      </div>
+      <button
+        (click)="resetQuiz()"
+        type="button"
+        id="play-again"
+        class="btn btn-outline-primary btn-lg"
+      >
+        Play Again
+      </button>
     </div>
-    <div class="results-message text-center">
-      <h2>Great job!</h2>
-      <h2>You got {{ score }} out of {{ states.length }} answers correct!</h2>
-    </div>
-    <button
-      (click)="resetQuiz()"
-      type="button"
-      id="play-again"
-      class="btn btn-outline-primary btn-lg"
-    >
-      Play Again
-    </button>
+    
   </div>
 </ng-container>
 <ng-template #quiz>
