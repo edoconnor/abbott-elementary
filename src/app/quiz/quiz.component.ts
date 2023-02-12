@@ -24,11 +24,7 @@ export class QuizComponent implements OnInit {
   constructor(private stateService: StateService) {}
 
   ngOnInit() {
-    this.stateService.getStates().subscribe((states) => {
-      this.states = this.selectRandomQuestions(states, 3);
-      this.resetQuiz()
-      console.log(this.states);
-    });
+    this.resetQuiz()
   }
 
   selectRandomQuestions(questions: any[], count: number): any[] {

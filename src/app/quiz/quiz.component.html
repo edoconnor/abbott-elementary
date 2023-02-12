@@ -7,9 +7,8 @@
       <h1 class="emoji">👍</h1>
     </div>
     <div class="results-message text-center">
-      <h2>
-        Great job! <br />You got <br />{{ score }} out of {{ states.length }} <br />correct!
-      </h2>
+      <h2>Great job!</h2>
+      <h2>You got {{ score }} out of {{ states.length }} answers correct!</h2>
     </div>
     <button
       (click)="resetQuiz()"

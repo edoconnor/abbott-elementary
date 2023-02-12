@@ -17,10 +17,7 @@
   max-width: 400px;
   padding: 1rem;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: red;
-}
+
 .image-container img {
   width: 100%;
   height: auto;
@@ -94,6 +91,7 @@ h2 {
   color: #2c3e50;
 }
 .results-message {
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
