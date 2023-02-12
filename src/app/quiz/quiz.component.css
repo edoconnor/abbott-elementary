@@ -15,22 +15,31 @@
 }
 .cards-wrapper {
   height: 100vh;
-  padding-bottom: 56px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 400px) {
   .cards-wrapper {
     height: auto;
-    padding-bottom: 0;
+    padding-bottom: 56px;
+  }
+  .card {
+    max-width: 300px;
+
+    padding-top: 0;
+  }
+  .carousel-inner {
+    margin-top: 0.5rem;
   }
 }
+
 .card {
   height: 100%;
   overflow: hidden;
   position: relative;
   max-width: 400px;
   border-color: white;
-  padding: 1rem 1rem 1rem 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .image-container img {
