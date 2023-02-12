@@ -14,10 +14,11 @@
   margin-top: 2rem;
 }
 .card {
+  height: 90vh;
   max-width: 400px;
-  padding: 1rem;
+  border-color: white;
+  padding: 3rem 1rem 1rem 1rem;
 }
-
 .image-container img {
   width: 100%;
   height: auto;
@@ -39,28 +40,18 @@
   margin-bottom: 0.5rem;
   border-radius: 0;
 }
-.footer {
-  width: 100vw;
-}
-.footer-button {
+.footer-btn {
+  width: 125px;
+
+  margin-right: 0.5rem;
   margin-top: 2rem;
 }
-.hud-container {
-  height: 5rem;
-  top: 65px;
-  position: sticky;
-  background-color: yellow;
-  z-index: 99;
+.footer-row {
   display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.hud-text {
-  flex: 1 1 auto;
-  text-align: center;
-  font-weight: 400;
-}
-
 .navbar {
   height: 65px;
 }
@@ -79,9 +70,6 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* margin-left: auto;
-    margin-right: auto;
-    padding: 1rem; */
 }
 h1 {
   font-size: 5rem;
@@ -90,6 +78,7 @@ h2 {
   font-size: 2.5rem;
   color: #2c3e50;
 }
+
 .results-message {
   max-width: 400px;
   display: flex;

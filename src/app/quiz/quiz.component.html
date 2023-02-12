@@ -95,6 +95,25 @@
                 }}
               </button>
             </div>
+            <div class="footer-container">
+              <div class="footer-row">
+                <div class="footer-col">
+                  <button type="button" class="btn footer-btn btn-outline-primary">
+                    Score: {{ (score / states.length) * 100 }}
+                  </button>
+                </div>
+                <div class="footer-col">
+                  <button
+                    (click)="resetQuiz()"
+                    type="button"
+                    
+                    class="btn footer-btn btn-outline-primary"
+                  >
+                    Reset Game
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,18 +136,5 @@
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
-
-    <div class="footer">
-      <div class="footer-button text-center">
-        <p class="mx-auto">Score: {{ (score / states.length) * 100 }}</p>
-        <button
-          (click)="resetQuiz()"
-          type="button"
-          class="btn btn-outline-primary"
-        >
-          New Game
-        </button>
-      </div>
-    </div>
   </div>
 </ng-template>
