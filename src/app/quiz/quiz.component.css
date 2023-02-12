@@ -30,26 +30,24 @@
   .card {
     max-width: 300px;
     background-color: yellow;
-    padding-top: 0;
+    padding-top: .75rem;
   }
   .carousel-inner {
     margin-top: 0.5rem;
   }
 }
-@media (min-width: 780px) {
-   
+@media (min-width: 768px) {
   .card {
-    max-width: 400px;
+    width: 400px;
     background-color: red;
     padding-top: 3rem;
   }
-   
 }
 .card {
   height: 100%;
   overflow: hidden;
   position: relative;
-  max-width: 400px;
+  max-width: 500px;
   border-color: white;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
