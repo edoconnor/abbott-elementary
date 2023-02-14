@@ -1,2 +1,2 @@
-# Angular Flashcard App
-![My Image](states-capitals.png)
+# Abbott Elementary - Student Quiz App
+![Abbott Elementary Quiz App](screenshot.png)
