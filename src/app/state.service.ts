@@ -6,7 +6,7 @@ import { State } from './state';
   providedIn: 'root'
 })
 export class StateService {
-  url = 'https://mysterious-caverns-84465.herokuapp.com';
+  url = 'https://state-backend.herokuapp.com/states';
 
   constructor(private http: HttpClient) { }
 
