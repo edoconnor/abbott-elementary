@@ -1,402 +1,552 @@
 [
     {
-    "_id": "63543a8cfab07993d802cb68",
+    "_id": "63e590ac74e6805f718d7eda",
     "name": "alabama",
+    "choice1": "Huntsville",
+    "choice2": "Montgomery",
+    "choice3": "Birmingham",
+    "choice4": "Mobile",
     "capital": "montgomery",
-    "postal": "al",
-    "standard": "ala.",
-    "plates": "https://theus50.com/images/state-licenses/alabama-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/alabama-license.jpg",
+    "flags": "https://picsum.photos/id/681/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb69",
+    "_id": "63e590ac74e6805f718d7edb",
     "name": "alaska",
+    "choice1": "Anchorage",
+    "choice2": "Juneau",
+    "choice3": "Fairbanks",
+    "choice4": "Nome",
     "capital": "juneau",
-    "postal": "ak",
-    "standard": "alaska",
-    "plates": "https://theus50.com/images/state-licenses/alaska-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/alaska-license.jpg",
+    "flags": "https://picsum.photos/id/703/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6a",
+    "_id": "63e590ac74e6805f718d7edc",
     "name": "arizona",
+    "choice1": "Phoenix",
+    "choice2": "Tucson",
+    "choice3": "Mesa",
+    "choice4": "Chandler",
     "capital": "phoenix",
-    "postal": "az",
-    "standard": "ariz.",
-    "plates": "https://theus50.com/images/state-licenses/arizona-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/arizona-license.jpg",
+    "flags": "https://picsum.photos/id/870/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6b",
+    "_id": "63e590ac74e6805f718d7edd",
     "name": "arkansas",
+    "choice1": "Little Rock",
+    "choice2": "Fayetteville",
+    "choice3": "Fort Smith",
+    "choice4": "Springdale",
     "capital": "little rock",
-    "postal": "ar",
-    "standard": "ark.",
-    "plates": "https://theus50.com/images/state-licenses/arkansas-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/arkansas-license.jpg",
+    "flags": "https://picsum.photos/id/786/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6c",
+    "_id": "63e590ac74e6805f718d7ede",
     "name": "california",
+    "choice1": "Los Angeles",
+    "choice2": "sacramento",
+    "choice3": "San Jose",
+    "choice4": "San Francisco",
     "capital": "sacramento",
-    "postal": "ca",
-    "standard": "calif.",
-    "plates": "https://theus50.com/images/state-licenses/california-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/california-license.jpg",
+    "flags": "https://picsum.photos/id/815/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6d",
+    "_id": "63e590ac74e6805f718d7edf",
     "name": "colorado",
+    "choice1": "Denver",
+    "choice2": "Colorado Springs",
+    "choice3": "Aurora",
+    "choice4": "Fort Collins",
     "capital": "denver",
-    "postal": "co",
-    "standard": "color.",
-    "plates": "https://theus50.com/images/state-licenses/colorado-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/colorado-license.jpg",
+    "flags": "https://picsum.photos/id/819/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6e",
+    "_id": "63e590ac74e6805f718d7ee0",
     "name": "connecticut",
+    "choice1": "Bridgeport",
+    "choice2": "Stamford",
+    "choice3": "New Haven",
+    "choice4": "Hartford",
     "capital": "hartford",
-    "postal": "ct",
-    "standard": "conn.",
-    "plates": "https://theus50.com/images/state-licenses/connecticut-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/connecticut-license.jpg",
+    "flags": "https://picsum.photos/id/352/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb6f",
+    "_id": "63e590ac74e6805f718d7ee1",
     "name": "delaware",
+    "choice1": "Wilmington",
+    "choice2": "Dover",
+    "choice3": "Newark",
+    "choice4": "Middletown",
     "capital": "dover",
-    "postal": "de",
-    "standard": "del.",
-    "plates": "https://theus50.com/images/state-licenses/delaware-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/delaware-license.jpg",
+    "flags": "https://picsum.photos/id/358/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb70",
+    "_id": "63e590ac74e6805f718d7ee2",
     "name": "florida",
+    "choice1": "Jacksonville",
+    "choice2": "Miami",
+    "choice3": "tallahassee",
+    "choice4": "Orlando",
     "capital": "tallahassee",
-    "postal": "fl",
-    "standard": "fla.",
-    "plates": "https://theus50.com/images/state-licenses/florida-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/florida-license.jpg",
+    "flags": "https://picsum.photos/id/449/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb71",
+    "_id": "63e590ac74e6805f718d7ee3",
     "name": "georgia",
+    "choice1": "Atlanta",
+    "choice2": "Columbus",
+    "choice3": "Augusta",
+    "choice4": "Macon",
     "capital": "atlanta",
-    "postal": "ga",
-    "standard": "ga.",
-    "plates": "https://theus50.com/images/state-licenses/georgia-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/georgia-license.jpg",
+    "flags": "https://picsum.photos/id/474/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb72",
+    "_id": "63e590ac74e6805f718d7ee4",
     "name": "hawaii",
+    "choice1": "Honolulu",
+    "choice2": "Waipahu",
+    "choice3": "Pearl City",
+    "choice4": "Hilo",
     "capital": "honolulu",
-    "postal": "hi",
-    "standard": "hawaii",
-    "plates": "https://theus50.com/images/state-licenses/hawaii-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/hawaii-license.jpg",
+    "flags": "https://picsum.photos/id/503/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb73",
+    "_id": "63e590ac74e6805f718d7ee5",
     "name": "idaho",
+    "choice1": "Boise",
+    "choice2": "Meridian",
+    "choice3": "Nampa",
+    "choice4": "Idaho Falls",
     "capital": "boise",
-    "postal": "id",
-    "standard": "idaho",
-    "plates": "https://theus50.com/images/state-licenses/idaho-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/idaho-license.jpg",
+    "flags": "https://picsum.photos/id/521/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb74",
+    "_id": "63e590ac74e6805f718d7ee6",
     "name": "illinois",
+    "choice1": "Chicago",
+    "choice2": "Aurora",
+    "choice3": "springfield",
+    "choice4": "Joliet",
     "capital": "springfield",
-    "postal": "il",
-    "standard": "ill.",
-    "plates": "https://theus50.com/images/state-licenses/illinois-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/illinois-license.jpg",
+    "flags": "https://picsum.photos/id/579/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb75",
+    "_id": "63e590ac74e6805f718d7ee7",
     "name": "indiana",
+    "choice1": "Indianapolis",
+    "choice2": "Fort Wayne",
+    "choice3": "Evansville",
+    "choice4": "South Bend",
     "capital": "indianapolis",
-    "postal": "in",
-    "standard": "ind.",
-    "plates": "https://theus50.com/images/state-licenses/indiana-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/indiana-license.jpg",
+    "flags": "https://picsum.photos/id/585/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb76",
+    "_id": "63e590ac74e6805f718d7ee8",
     "name": "iowa",
+    "choice1": "Des Moines",
+    "choice2": "Cedar Rapids",
+    "choice3": "Davenport",
+    "choice4": "Sioux City",
     "capital": "des moines",
-    "postal": "ia",
-    "standard": "iowa",
-    "plates": "https://theus50.com/images/state-licenses/iowa-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/iowa-license.jpg",
+    "flags": "https://picsum.photos/id/639/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb77",
+    "_id": "63e590ac74e6805f718d7ee9",
     "name": "kansas",
+    "choice1": "Wichita",
+    "choice2": "Overland Park",
+    "choice3": "Kansas City",
+    "choice4": "topeka",
     "capital": "topeka",
-    "postal": "ks",
-    "standard": "kan.",
-    "plates": "https://theus50.com/images/state-licenses/kansas-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/kansas-license.jpg",
+    "flags": "https://picsum.photos/id/681/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb78",
+    "_id": "63e590ac74e6805f718d7eea",
     "name": "kentucky",
+    "choice1": "Louisville",
+    "choice2": "Lexington",
+    "choice3": "Bowling Green",
+    "choice4": "frankfort",
     "capital": "frankfort",
-    "postal": "ky",
-    "standard": "ky.",
-    "plates": "https://theus50.com/images/state-licenses/kentucky-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/kentucky-license.jpg",
+    "flags": "https://picsum.photos/id/703/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb79",
+    "_id": "63e590ac74e6805f718d7eeb",
     "name": "louisiana",
+    "choice1": "New Orleans",
+    "choice2": "Baton Rouge",
+    "choice3": "Shreveport",
+    "choice4": "Lafayette",
     "capital": "baton rouge",
-    "postal": "la",
-    "standard": "la.",
-    "plates": "https://theus50.com/images/state-licenses/louisiana-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/louisiana-license.jpg",
+    "flags": "https://picsum.photos/id/870/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7a",
+    "_id": "63e590ac74e6805f718d7eec",
     "name": "maine",
+    "choice1": "Portland",
+    "choice2": "Lewiston",
+    "choice3": "Bangor",
+    "choice4": "augusta",
     "capital": "augusta",
-    "postal": "me",
-    "standard": "maine",
-    "plates": "https://theus50.com/images/state-licenses/maine-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/maine-license.jpg",
+    "flags": "https://picsum.photos/id/786/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7b",
+    "_id": "63e590ac74e6805f718d7eed",
     "name": "maryland",
+    "choice1": "Baltimore",
+    "choice2": "Columbia",
+    "choice3": "annapolis",
+    "choice4": "Silver Spring",
     "capital": "annapolis",
-    "postal": "md",
-    "standard": "md.",
-    "plates": "https://theus50.com/images/state-licenses/maryland-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/maryland-license.jpg",
+    "flags": "https://picsum.photos/id/815/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7c",
+    "_id": "63e590ac74e6805f718d7eee",
     "name": "massachusetts",
+    "choice1": "Boston",
+    "choice2": "Worcester",
+    "choice3": "Springfield",
+    "choice4": "Cambridge",
     "capital": "boston",
-    "postal": "ma",
-    "standard": "mass.",
-    "plates": "https://theus50.com/images/state-licenses/massachusetts-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/massachusetts-license.jpg",
+    "flags": "https://picsum.photos/id/819/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7d",
+    "_id": "63e590ac74e6805f718d7eef",
     "name": "michigan",
+    "choice1": "Detroit",
+    "choice2": "Grand Rapids",
+    "choice3": "lansing",
+    "choice4": "Sterling Heights",
     "capital": "lansing",
-    "postal": "mi",
-    "standard": "mich.",
-    "plates": "https://theus50.com/images/state-licenses/michigan-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/michigan-license.jpg",
+    "flags": "https://picsum.photos/id/352/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7e",
+    "_id": "63e590ac74e6805f718d7ef0",
     "name": "minnesota",
+    "choice1": "Minneapolis",
+    "choice2": "Saint Paul",
+    "choice3": "Rochester",
+    "choice4": "Duluth",
     "capital": "saint paul",
-    "postal": "mn",
-    "standard": "minn.",
-    "plates": "https://theus50.com/images/state-licenses/minnesota-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/minnesota-license.jpg",
+    "flags": "https://picsum.photos/id/358/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb7f",
+    "_id": "63e590ac74e6805f718d7ef1",
     "name": "mississippi",
+    "choice1": "Jackson",
+    "choice2": "Gulfport",
+    "choice3": "Southaven",
+    "choice4": "Biloxi",
     "capital": "jackson",
-    "postal": "ms",
-    "standard": "miss.",
-    "plates": "https://theus50.com/images/state-licenses/mississippi-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/mississippi-license.jpg",
+    "flags": "https://picsum.photos/id/449/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb80",
+    "_id": "63e590ac74e6805f718d7ef2",
     "name": "missouri",
+    "choice1": "Kansas City",
+    "choice2": "Saint Louis",
+    "choice3": "Springfield",
+    "choice4": "jefferson city",
     "capital": "jefferson city",
-    "postal": "mo",
-    "standard": "mo.",
-    "plates": "https://theus50.com/images/state-licenses/missouri-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/missouri-license.jpg",
+    "flags": "https://picsum.photos/id/474/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb81",
+    "_id": "63e590ac74e6805f718d7ef3",
     "name": "montana",
+    "choice1": "Billings",
+    "choice2": "Missoula",
+    "choice3": "helena",
+    "choice4": "Bozeman",
     "capital": "helena",
-    "postal": "mt",
-    "standard": "mont.",
-    "plates": "https://theus50.com/images/state-licenses/montana-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/montana-license.jpg",
+    "flags": "https://picsum.photos/id/503/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb82",
+    "_id": "63e590ac74e6805f718d7ef4",
     "name": "nebraska",
+    "choice1": "Omaha",
+    "choice2": "Lincoln",
+    "choice3": "Bellevue",
+    "choice4": "Grand Island",
     "capital": "lincoln",
-    "postal": "ne",
-    "standard": "neb.",
-    "plates": "https://theus50.com/images/state-licenses/nebraska-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/nebraska-license.jpg",
+    "flags": "https://picsum.photos/id/521/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb83",
+    "_id": "63e590ac74e6805f718d7ef5",
     "name": "nevada",
+    "choice1": "Las Vegas",
+    "choice2": "Henderson",
+    "choice3": "Reno",
+    "choice4": "carson city",
     "capital": "carson city",
-    "postal": "nv",
-    "standard": "nev.",
-    "plates": "https://theus50.com/images/state-licenses/nevada-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/nevada-license.jpg",
+    "flags": "https://picsum.photos/id/579/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb84",
+    "_id": "63e590ac74e6805f718d7ef6",
     "name": "new hampshire",
+    "choice1": "Manchester",
+    "choice2": "Nashua",
+    "choice3": "Concord",
+    "choice4": "Dover",
     "capital": "concord",
-    "postal": "nh",
-    "standard": "n.h.",
-    "plates": "https://theus50.com/images/state-licenses/newhampshire-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/new_hampshire-license.jpg",
+    "flags": "https://picsum.photos/id/585/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb85",
+    "_id": "63e590ac74e6805f718d7ef7",
     "name": "new jersey",
+    "choice1": "Newark",
+    "choice2": "Jersey City",
+    "choice3": "Paterson",
+    "choice4": "trenton",
     "capital": "trenton",
-    "postal": "nj",
-    "standard": "n.j.",
-    "plates": "https://theus50.com/images/state-licenses/newjersey-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/new_jersey-license.jpg",
+    "flags": "https://picsum.photos/id/639/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb86",
+    "_id": "63e590ac74e6805f718d7ef8",
     "name": "new mexico",
+    "choice1": "Albuquerque",
+    "choice2": "Las Cruces",
+    "choice3": "Rio Rancho",
+    "choice4": "Santa Fe",
     "capital": "santa fe",
-    "postal": "nm",
-    "standard": "n.m.",
-    "plates": "https://theus50.com/images/state-licenses/newmexico-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/new_mexico-license.jpg",
+    "flags": "https://picsum.photos/id/681/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb87",
+    "_id": "63e590ac74e6805f718d7ef9",
     "name": "new york",
+    "choice1": "New York City",
+    "choice2": "Buffalo",
+    "choice3": "albany",
+    "choice4": "Rochester",
     "capital": "albany",
-    "postal": "ny",
-    "standard": "n.y.",
-    "plates": "https://theus50.com/images/state-licenses/newyork-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/new_york-license.jpg",
+    "flags": "https://picsum.photos/id/703/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb88",
+    "_id": "63e590ac74e6805f718d7efa",
     "name": "north carolina",
+    "choice1": "Charlotte",
+    "choice2": "Raleigh",
+    "choice3": "Greensboro",
+    "choice4": "Durham",
     "capital": "raleigh",
-    "postal": "nc",
-    "standard": "n.c.",
-    "plates": "https://theus50.com/images/state-licenses/northcarolina-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/north_carolina-license.jpg",
+    "flags": "https://picsum.photos/id/870/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb89",
+    "_id": "63e590ac74e6805f718d7efb",
     "name": "north dakota",
+    "choice1": "Fargo",
+    "choice2": "Bismarck",
+    "choice3": "Grand Forks",
+    "choice4": "Minot",
     "capital": "bismarck",
-    "postal": "nd",
-    "standard": "n.d.",
-    "plates": "https://theus50.com/images/state-licenses/northdakota-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/north_dakota-license.jpg",
+    "flags": "https://picsum.photos/id/786/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8a",
+    "_id": "63e590ac74e6805f718d7efc",
     "name": "ohio",
+    "choice1": "Columbus",
+    "choice2": "Cleveland",
+    "choice3": "Cincinnati",
+    "choice4": "Toledo",
     "capital": "columbus",
-    "postal": "oh",
-    "standard": "ohio",
-    "plates": "https://theus50.com/images/state-licenses/ohio-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/ohio-license.jpg",
+    "flags": "https://picsum.photos/id/815/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8b",
+    "_id": "63e590ac74e6805f718d7efd",
     "name": "oklahoma",
+    "choice1": "Oklahoma City",
+    "choice2": "Tulsa",
+    "choice3": "Norman",
+    "choice4": "Broken Arrow",
     "capital": "oklahoma city",
-    "postal": "ok",
-    "standard": "okla.",
-    "plates": "https://theus50.com/images/state-licenses/oklahoma-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/oklahoma-license.jpg",
+    "flags": "https://picsum.photos/id/819/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8c",
+    "_id": "63e590ac74e6805f718d7efe",
     "name": "oregon",
+    "choice1": "Portland",
+    "choice2": "Salem",
+    "choice3": "Eugene",
+    "choice4": "Gresham",
     "capital": "salem",
-    "postal": "or",
-    "standard": "ore.",
-    "plates": "https://theus50.com/images/state-licenses/oregon-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/oregon-license.jpg",
+    "flags": "https://picsum.photos/id/352/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8d",
+    "_id": "63e590ac74e6805f718d7eff",
     "name": "pennsylvania",
+    "choice1": "Philadelphia",
+    "choice2": "Pittsburgh",
+    "choice3": "Allentown",
+    "choice4": "harrisburg",
     "capital": "harrisburg",
-    "postal": "pa",
-    "standard": "pa.",
-    "plates": "https://theus50.com/images/state-licenses/pennsylvania-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/pennsylvania-license.jpg",
+    "flags": "https://picsum.photos/id/358/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8e",
+    "_id": "63e590ac74e6805f718d7f00",
     "name": "rhode island",
+    "choice1": "Providence",
+    "choice2": "Cranston",
+    "choice3": "Warwick",
+    "choice4": "Pawtucket",
     "capital": "providence",
-    "postal": "ri",
-    "standard": "r.i.",
-    "plates": "https://theus50.com/images/state-licenses/rhodeisland-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/rhode_island-license.jpg",
+    "flags": "https://picsum.photos/id/449/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb8f",
+    "_id": "63e590ac74e6805f718d7f01",
     "name": "south carolina",
+    "choice1": "Charleston",
+    "choice2": "Columbia",
+    "choice3": "North Charleston",
+    "choice4": "Mount Pleasant",
     "capital": "columbia",
-    "postal": "sc",
-    "standard": "s.c.",
-    "plates": "https://theus50.com/images/state-licenses/southcarolina-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/south_carolina-license.jpg",
+    "flags": "https://picsum.photos/id/474/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb90",
+    "_id": "63e590ac74e6805f718d7f02",
     "name": "south dakota",
+    "choice1": "Sioux Falls",
+    "choice2": "Rapid City",
+    "choice3": "pierre",
+    "choice4": "Brookings",
     "capital": "pierre",
-    "postal": "sd",
-    "standard": "s.dak.",
-    "plates": "https://theus50.com/images/state-licenses/southdakota-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/south_dakota-license.jpg",
+    "flags": "https://picsum.photos/id/503/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb91",
+    "_id": "63e590ac74e6805f718d7f03",
     "name": "tennessee",
+    "choice1": "Nashville",
+    "choice2": "Memphis",
+    "choice3": "Knoxville",
+    "choice4": "Chattanooga",
     "capital": "nashville",
-    "postal": "tn",
-    "standard": "tenn.",
-    "plates": "https://theus50.com/images/state-licenses/tennessee-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/tennessee-license.jpg",
+    "flags": "https://picsum.photos/id/521/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb92",
+    "_id": "63e590ac74e6805f718d7f04",
     "name": "texas",
+    "choice1": "Houston",
+    "choice2": "San Antonio",
+    "choice3": "Dallas",
+    "choice4": "Austin",
     "capital": "austin",
-    "postal": "tx",
-    "standard": "tex.",
-    "plates": "https://theus50.com/images/state-licenses/texas-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/texas-license.jpg",
+    "flags": "https://picsum.photos/id/579/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb93",
+    "_id": "63e590ac74e6805f718d7f05",
     "name": "utah",
+    "choice1": "Salt Lake City",
+    "choice2": "West Valley City",
+    "choice3": "Provo",
+    "choice4": "West Jordan",
     "capital": "salt lake city",
-    "postal": "ut",
-    "standard": "utah",
-    "plates": "https://theus50.com/images/state-licenses/utah-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/utah-license.jpg",
+    "flags": "https://picsum.photos/id/585/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb94",
+    "_id": "63e590ac74e6805f718d7f06",
     "name": "vermont",
+    "choice1": "Burlington",
+    "choice2": "montpelier",
+    "choice3": "Colchester",
+    "choice4": "Rutland",
     "capital": "montpelier",
-    "postal": "vt",
-    "standard": "v.t.",
-    "plates": "https://theus50.com/images/state-licenses/vermont-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/vermont-license.jpg",
+    "flags": "https://picsum.photos/id/639/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb95",
+    "_id": "63e590ac74e6805f718d7f07",
     "name": "virginia",
+    "choice1": "Virginia Beach",
+    "choice2": "Norfolk",
+    "choice3": "Chesapeake",
+    "choice4": "Richmond",
     "capital": "richmond",
-    "postal": "va",
-    "standard": "va.",
-    "plates": "https://theus50.com/images/state-licenses/virginia-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/virginia-license.jpg",
+    "flags": "https://picsum.photos/id/681/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb96",
+    "_id": "63e590ac74e6805f718d7f08",
     "name": "washington",
+    "choice1": "Seattle",
+    "choice2": "Spokane",
+    "choice3": "olympia",
+    "choice4": "Vancouver",
     "capital": "olympia",
-    "postal": "wa",
-    "standard": "wash.",
-    "plates": "https://theus50.com/images/state-licenses/washington-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/washington-license.jpg",
+    "flags": "https://picsum.photos/id/703/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb97",
+    "_id": "63e590ac74e6805f718d7f09",
     "name": "west virginia",
+    "choice1": "Charleston",
+    "choice2": "Huntington",
+    "choice3": "Morgantown",
+    "choice4": "Parkersburg",
     "capital": "charleston",
-    "postal": "wv",
-    "standard": "w.va.",
-    "plates": "https://theus50.com/images/state-licenses/westvirginia-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/west_virginia-license.jpg",
+    "flags": "https://picsum.photos/id/870/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb98",
+    "_id": "63e590ac74e6805f718d7f0a",
     "name": "wisconsin",
+    "choice1": "Milwaukee",
+    "choice2": "Madison",
+    "choice3": "Green Bay",
+    "choice4": "Kenosha",
     "capital": "madison",
-    "postal": "wi",
-    "standard": "wis.",
-    "plates": "https://theus50.com/images/state-licenses/wisconsin-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/wisconsin-license.jpg",
+    "flags": "https://picsum.photos/id/786/300/200?grayscale "
     },
     {
-    "_id": "63543a8cfab07993d802cb99",
+    "_id": "63e590ac74e6805f718d7f0b",
     "name": "wyoming",
+    "choice1": "Cheyenne",
+    "choice2": "Casper",
+    "choice3": "Laramie",
+    "choice4": "Gillette",
     "capital": "cheyenne",
-    "postal": "wy",
-    "standard": "wyo.",
-    "plates": "https://theus50.com/images/state-licenses/wyoming-license.jpg"
+    "plates": "https://theus50.com/images/state-licenses/wyoming-license.jpg",
+    "flags": "https://picsum.photos/id/815/300/200?grayscale "
     }
     ]
